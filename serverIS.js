@@ -6,4 +6,4 @@ function onRequest(request, response) {
   response.end();
 }
 http.createServer(onRequest).listen(4444);
-console.log("Servidor Iniciado.");
+console.log("Servidor Iniciado.\n en el puerto 4444");
